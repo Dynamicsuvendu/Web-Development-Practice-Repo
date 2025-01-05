@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chessboard</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        td {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .white {
+            background-color: #f0f0f0;
+        }
+        .black {
+            background-color: #888;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td></td>
+            <td>a</td>
+            <td>b</td>
+            <td>c</td>
+            <td>d</td>
+            <td>e</td>
+            <td>f</td>
+            <td>g</td>
+            <td>h</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td class="black"><img src="images/rook_black.png" alt="Rook"></td>
+            <td class="white"><img src="images/knight_black.png" alt="Knight"></td>
+            <td class="black"><img src="images/bishop_black.png" alt="Bishop"></td>
+            <td class="white"><img src="images/queen_black.png" alt="Queen"></td>
+            <td class="black"><img src="images/king_black.png" alt="King"></td>
+            <td class="white"><img src="images/bishop_black.png" alt="Bishop"></td>
+            <td class="black"><img src="images/knight_black.png" alt="Knight"></td>
+            <td class="white"><img src="images/rook_black.png" alt="Rook"></td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td class="white"><img src="images/pawn_black.png" alt="Pawn"></td>
+            <td class="black"><img src="images/pawn_black.png" alt="Pawn"></td>
+            <td class="white"><img src="images/pawn_black.png" alt="Pawn"></td>
+            <td class="black"><img src="images/pawn_black.png" alt="Pawn"></td>
+            <td class="white"><img src="images/pawn_black.png" alt="Pawn"></td>
+            <td class="black"><img src="images/pawn_black.png" alt="Pawn"></td>
+            <td class="white"><img src="images/pawn_black.png" alt="Pawn"></td>
+            <td class="black"><img src="images/pawn_black.png" alt="Pawn"></td>
+        </tr>
+        <!-- Empty rows for 6-3 -->
+        <tr>
+            <td>6</td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+            <td class="white"></td>
+            <td class="black"></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td class="black"><img src="images/pawn_white.png" alt="Pawn"></td>
+            <td class="white"><img src="images/pawn_white.png" alt="Pawn"></td>
+            <td class="black"><img src="images/pawn_white.png" alt="Pawn"></td>
+            <td class="white"><img src="images/pawn_white.png" alt="Pawn"></td>
+            <td class="black"><img src="images/pawn_white.png" alt="Pawn"></td>
+            <td class="white"><img src="images/pawn_white.png" alt="Pawn"></td>
+            <td class="black"><img src="images/pawn_white.png" alt="Pawn"></td>
+            <td class="white"><img src="images/pawn_white.png" alt="Pawn"></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td class="white"><img src="images/rook_white.png" alt="Rook"></td>
+            <td class="black"><img src="images/knight_white.png" alt="Knight"></td>
+            <td class="white"><img src="images/bishop_white.png" alt="Bishop"></td>
+            <td class="black"><img src="images/queen_white.png" alt="Queen"></td>
+            <td class="white"><img src="images/king_white.png" alt="King"></td>
+            <td class="black"><img src="images/bishop_white.png" alt="Bishop"></td>
+            <td class="white"><img src="images/knight_white.png" alt="Knight"></td>
+            <td class="black"><img src="images/rook_white.png" alt="Rook"></td>
+        </tr>
+    </table>
+</body>
+</html>
