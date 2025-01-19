@@ -1,0 +1,27 @@
+.hero{
+	height: 500px;
+	display: flex;
+	width: 100%;
+}
+.section{
+	width: 50%;
+	margin: 10px;
+}
+.photo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+img{
+	height: 400px;
+}
+.details{
+	background-color: green;
+	border-radius: 30px;
+	box-shadow: 0px 5px 5px rgba(0, 1, 0, 0.2);
+}
+li{
+	list-style-type: none;
+	font-size: 34px;
+	padding: 20px;
+}
