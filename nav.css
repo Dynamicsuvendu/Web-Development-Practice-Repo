@@ -1,0 +1,21 @@
+*{
+	margin: 0;
+}
+nav{
+	display: flex;
+	padding: 20px;
+	box-shadow: 0px 10px 10px rgba(0, 1, 0, 0.2);
+}
+.sitename, .space{
+	width: 25%;
+}
+.sitename{
+	font-size: 45px;
+	padding: 10px;
+	color: lightpink;
+}
+.link{
+	padding: 20px 20px 20px 30px;
+	background-color: #f1f1f1;
+	margin: 10px;
+}
