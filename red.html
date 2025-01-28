@@ -1,0 +1,29 @@
+<div></div>
+<style type="text/css">
+	div{
+		height: 200px;
+		width: 200px;
+		background-color: blue;
+		animation: animate-nali-bakso 5s infinite;
+		border-radius: 50%;
+	}
+	@keyframes animate-nali-bakso{
+		0%{
+			transform: translate3d(0px, 0px, 0px);
+			border-radius: 500%;
+		}
+		25%{
+			transform: translate3d(500px, 0px, 0px);
+			background-color: red;
+			border-radius: 50%;
+		}
+		50%{
+			transform: translate3d(500px, 500px, 0px);
+			background-color: green;
+		}
+		75%{
+			transform: translate3d( 0px, 500px, 500px);
+			background-color: gray;
+		}
+	}
+</style>
