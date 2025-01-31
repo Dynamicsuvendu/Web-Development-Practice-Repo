@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.login-main{
+	display: flex;
+	justify-content: center;
+	height: 100vh;
+	aligin-items:center;
+}
+.login-container{
+	border: 1px solid 10px rgba(0,1,0,0,2);
+	display:flex ;
+	flex-direction: column;
+	align-items: center;
+	height: 600px;
+	width: 400px;
+	background-color: green;
+}
+.login-container img{
+	width:100px;
+	padding: 20px;
+}
+input,button{
+	margin: 20px;
+	padding:20px;
+	border: 2px solid #F1F1F1;
+	border-radius:30px;
+	width: 300px;
+}
+button{
+	width: 125px;
+}
