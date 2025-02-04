@@ -1,0 +1,26 @@
+.box{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	font-size: 43px;
+	border-radius: 50%;
+	animation: nali 2s infinite;
+}
+.box1{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	margin-top: 50px;
+	margin-left: 200px;
+	border-radius: 50%;
+	animation: green 2s infinite;
+}
+.box2{
+	width:200px;
+	height: 200px;
+	background-color: blue;
+	margin-top: 50px;
+	margin-left: 400px;
+	border-radius: 50%;
+	animation: blue 2s infinite;
+}
